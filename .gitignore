@@ -1,0 +1,39 @@
+# ================================
+# macOS 系统垃圾文件
+# ================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.TemporaryItems
+
+# ================================
+# Windows 系统垃圾文件
+# ================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ================================
+# 编辑器配置
+# ================================
+.vscode/
+.idea/
+*.swp
+
+# ================================
+# Skill 常见敏感信息与运行依赖
+# ================================
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
